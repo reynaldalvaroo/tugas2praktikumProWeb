@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halaman Admin</title>
+</head>
+<body>
+  <style>
+    header.navbar {
+  background: rgb(218, 81, 138);
+  padding: 15px 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+ 
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+.inti-content {
+  margin-top: 80px; 
+  padding: 20px;
+  color: rgb(41, 35, 35);
+}
+
+.inti-content h2 {
+  color: #ce438e;
+}
+table {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 15px;
+  background-color: #bdbdbe;
+  border-radius: 8px;
+  
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  color: #333;
+}
+
+
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+
+@media (max-width: 600px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+  
+  tr {
+    margin-bottom: 10px;
+  }
+  
+  td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+  }
+
+}
+  </style>
+  <div id="page-admin" class="hidden">
+        <header class="navbar">
+      <div class="nav-item" id="nav-page-admin">Beranda Admin</div>
+      <div class="nav-item" id="nav-profile-admin">Profil Admin</div>
+      <div class="nav-item" id="nav-logout-admin">Logout</div>
+    </header>
+    <div class="inti-content">
+      <h2>Dashboard Admin</h2>
+      <p>Daftar Produk dan Pekerja:</p>
+
+      <h3>Daftar Produk:</h3>
+      <table>
+        <tr>
+          <th>Nama Produk</th>
+          <th>Harga Produk</th>
+          <th>Stok</th>
+        </tr>
+        <tr>
+          <td>Televisi dengan layar 3d</td>
+          <td>Rp 3.000.000</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>Kipas yang bisa mutar 360 derajat</td>
+          <td>Rp 1.500.000</td>
+          <td>15</td>
+        </tr>
+        <tr>
+          <td>Iphone 17 pro mex</td>
+          <td>Rp 12.0000.000</td>
+          <td>10</td>
+        </tr>
+      </table>
+      
+      <table>
+        <tr>
+          <th>Nama Pekerja</th>
+          <th>Email</th>
+          <th>Jabatan</th>
+        </tr>
+        <tr>
+          <td>Damar</td>
+          <td>damargantengkiutandsweet@gmail.com</td>
+          <td>Manajer</td>
+        </tr>
+        <tr>
+          <td>Budiono Siregar</td>
+          <td>budionosiregarkapallaut@gmail.com</td>
+          <td>Kasir</td>
+        </tr>
+        <tr>
+          <td>Yanto</td>
+          <td>gitarkupetikbasskubetot@gmail.com</td>
+          <td>Staff gudang</td>
+        </tr>
+        <tr>
+          <td>Sahroni</td>
+          <td>sahronigantengzz@gmai.com</td>
+          <td>Cleaning Service</td>
+        </tr>
+      </table>
+      </div>
+     
+      
+</body>
+</html>
